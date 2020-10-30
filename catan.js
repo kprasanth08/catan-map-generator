@@ -461,7 +461,7 @@ HexTile.prototype.draw = function() {
 HexTile.prototype.drawBase = function() {
 	
 	if (mapStyle == "retro") {
-		drawingContext.lineWidth = 5;
+		drawingContext.lineWidth =5;
 		drawingContext.fillStyle = "rgba(255,255,255,0)";
 		drawingContext.strokeStyle = "#000000";
 	} else {
